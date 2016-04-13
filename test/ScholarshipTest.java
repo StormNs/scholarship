@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -19,8 +18,8 @@ public class ScholarshipTest {
     @Test
     public void testGetAward(){
         assertEquals(-1, Scholarship.getAward(5.0));
-        assertEquals(80, Scholarship.getAward(4.0)); // co tinh sai, 100 moi dung
-        assertEquals(50, Scholarship.getAward(3.9)); // co tinh sai, 100 moi dung
+        assertEquals(100, Scholarship.getAward(4.0)); // co tinh sai, 100 moi dung
+        assertEquals(100, Scholarship.getAward(3.9)); // co tinh sai, 100 moi dung
         assertEquals(100, Scholarship.getAward(3.8)); 
         assertEquals(80, Scholarship.getAward(3.6)); 
         assertEquals(80, Scholarship.getAward(3.7)); 
