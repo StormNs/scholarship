@@ -20,7 +20,7 @@ public class ScholarshipTest {
     public void testGetAward(){
         assertEquals(-1, Scholarship.getAward(5.0));
         assertEquals(80, Scholarship.getAward(4.0)); // co tinh sai, 100 moi dung
-        assertEquals(70, Scholarship.getAward(3.9)); // co tinh sai, 100 moi dung
+        assertEquals(80, Scholarship.getAward(3.9)); // co tinh sai, 100 moi dung
         assertEquals(100, Scholarship.getAward(3.8)); 
         assertEquals(80, Scholarship.getAward(3.6)); 
         assertEquals(80, Scholarship.getAward(3.7)); 
