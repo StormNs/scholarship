@@ -13,7 +13,7 @@
 class Scholarship {
 
     static int getAward(double gpa) {
-        if (gpa >= 4 || gpa <0) {
+        if (gpa < 4 || gpa <0) {
             return -1;
         } else if (gpa >= 3.8) {
             return 100;
